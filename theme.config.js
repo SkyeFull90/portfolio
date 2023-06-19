@@ -3,13 +3,16 @@ const YEAR = new Date().getFullYear()
 export default {
   footer: (
     <footer>
-      <small>
-        <time>{YEAR}</time> © Skye Fullmer All rights reserved.
-        <a href="/feed.xml">RSS</a>
-      </small>
-      <small>
-        <a href='https://github.com/SkyeFull90/portfolio'>All Source code is under </a>
-      </small>
+
+
+        <small>
+            <time>{YEAR}</time> © Skye Fullmer All rights reserved.
+
+            <a href="/feed.xml">RSS</a>
+        </small>
+        <p>View the source code here: <a href={"https://github/SkyeFull90/portfolio"}>Portfolio</a></p>
+        <p>View the starter kit for this portfolio from: <a href={"https://vercel.com/new/templates/next.js/portfolio-starter-kit"}>Vercel</a></p>
+
       <style jsx>{`
         footer {
           margin-top: 8rem;
